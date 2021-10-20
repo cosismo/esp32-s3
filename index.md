@@ -28,7 +28,8 @@ Si la sigues al pie de la letra, en menos de 30 minutos podrás correr el ejempl
 * ESP32S3 Datasheet 
 [ESP32S3 Datasheet (Prerelease version 0.5) ](https://github.com/cosismo/esp32-s3/raw/gh-pages/esp32-s3_datasheet_en.pdf)
 
-
+¡Suerte!
+   Equipo Cosismo
 
 
 

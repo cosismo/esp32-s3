@@ -25,6 +25,9 @@ Si la sigues al pie de la letra, en menos de 30 minutos podrás correr el ejempl
  En el repositorio del proyecto de Arduino ESP32 hay abierto un caso donde se verá el avance:
 [Caso en Github Arduino ESP32 sobre el avance del soporte al S3 para el ESP32S3 ](https://github.com/espressif/arduino-esp32/issues/5594)
 
+* ESP32S3 Datasheet 
+[ESP32S3 Datasheet (Prerelease version 0.5) ](https://github.com/cosismo/esp32-s3/raw/gh-pages/esp32-s3_datasheet_en.pdf)
+
 
 
 

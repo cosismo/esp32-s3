@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+### ESP32S3 Dev kit
 
-You can use the [editor on GitHub](https://github.com/cosismo/esp32-s3/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Bienvenido al AIoT: Internet de las Cosas + Inteligencia Artificial
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Si llegaste hasta aquí, sabrás que estás en la avanzada tecnológica de estos chips, por lo que la información actual es limitada, breve y cambiará todos los días.
+A continuación te ofrecemos la información más básica hasta el momento.
 
-### Markdown
+Para comenzar a utilizar tu ESP32 y encontrar toda la información técnica, te recomendamos las siguientes ligas:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* Facebook.
+[Grupo de Facebook en español sobre Internet de las Cosas](https://www.facebook.com/groups/724628401049648/)
 
-```markdown
-Syntax highlighted code block
+La guía más básica para iniciar a programar el ESP32S3 con el IDF es la que sigue:  
+[Get Started ESP32S3](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/index.html)
 
-# Header 1
-## Header 2
-### Header 3
+Si la sigues al pie de la letra, en menos de 30 minutos podrás correr el ejemplo "hello world" o el "blink".
 
-- Bulleted
-- List
+El foro oficial del fabricante (Espressif) incluye
+[El post del avance en el soporte del IDF para el ESP32S3 ](https://www.esp32.com/viewtopic.php?t=21906)
 
-1. Numbered
-2. List
+Para el soporte de Arduino, tendrá que concluírse el paso anterior (el soporte en el IDF) ya que depende de aquél.
+ En el repositorio del proyecto de Arduino ESP32 hay abierto un caso donde se verá el avance:
+[Caso en Github Arduino ESP32 sobre el avance del soporte al S3 para el ESP32S3 ](https://github.com/espressif/arduino-esp32/issues/5594)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cosismo/esp32-s3/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.

@@ -7,7 +7,7 @@ A continuación te ofrecemos la información más básica hasta el momento. En l
 
 Para comenzar a utilizar tu ESP32 y encontrar toda la información técnica, te recomendamos las siguientes ligas:
 
-* Pinout 
+* Pinout   
 ![boot smd capacitor](https://raw.githubusercontent.com/cosismo/esp32-devkit/master/capacitoresp32.png)
 
 * Facebook.

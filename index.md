@@ -22,8 +22,8 @@ Si la sigues al pie de la letra, en menos de 30 minutos podrás correr el ejempl
 [El post del avance en el soporte del IDF para el ESP32S3 ](https://www.esp32.com/viewtopic.php?t=21906)
 
 * Para el soporte de Arduino, tendrá que concluírse el paso anterior (el soporte en el IDF) ya que depende de aquél.
- En el repositorio del proyecto de Arduino ESP32 hay abierto un caso donde se ve el avance:
-[Caso en Github Arduino ESP32 sobre el avance del soporte al S3 para el ESP32S3 ](https://github.com/espressif/arduino-esp32/issues/5594)
+ En el repositorio del proyecto de Arduino ESP32 hay abierto un caso donde se ve el avance:  
+[Caso en Github Arduino ESP32 sobre el avance del soporte al S3 para el ESP32S3 ](https://github.com/espressif/arduino-esp32/issues/5594)  
 Actualización 24/01/2022: hay en este momento una rama en el proyecto de github que ya da soporte parcial y el caso del ha sido marcado como "Test needed". Los desarrolladores prometen hacer el merge en los próximos días /semanas. 
 Si tienes conocimientos de cómo instalar la librería desde otro branch, puedes ayudar con las pruebas. Éste es el branch:
 [https://github.com/espressif/arduino-esp32/tree/esp32-s3-support](https://github.com/espressif/arduino-esp32/tree/esp32-s3-support)

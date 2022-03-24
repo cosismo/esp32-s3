@@ -28,7 +28,11 @@ Si la sigues al pie de la letra, en menos de 30 minutos podrás correr el ejempl
 Actualización 24/01/2022: hay en este momento una rama en el proyecto de github que ya da soporte parcial y el caso ha sido marcado como "Test needed". Los desarrolladores prometen hacer el merge en los próximos días /semanas. 
 Si tienes conocimientos de cómo instalar la librería desde otro branch, puedes ayudar con las pruebas.  
 Éste es el branch:
-[https://github.com/espressif/arduino-esp32/tree/esp32-s3-support](https://github.com/espressif/arduino-esp32/tree/esp32-s3-support)
+[https://github.com/espressif/arduino-esp32/tree/esp32-s3-support](https://github.com/espressif/arduino-esp32/tree/esp32-s3-support)  
+El tracking de los avances:  
+[https://github.com/espressif/arduino-esp32/discussions/6197](https://github.com/espressif/arduino-esp32/discussions/6197)  
+La discusión:  
+[https://github.com/espressif/arduino-esp32/issues/5594](https://github.com/espressif/arduino-esp32/issues/5594)  
 
 * ESP32S3 Datasheet 
 [ESP32S3 Datasheet (Prerelease version 0.5) ](https://github.com/cosismo/esp32-s3/raw/gh-pages/esp32-s3_datasheet_en.pdf)

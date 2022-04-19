@@ -21,11 +21,11 @@ Si la sigues al pie de la letra, en menos de 30 minutos podrás correr el ejempl
 * El foro oficial del fabricante (Espressif) incluye
 [El post del avance en el soporte del IDF para el ESP32S3 ](https://www.esp32.com/viewtopic.php?t=21906)
 
-* Para el soporte de Arduino, tendrá que concluírse el paso anterior (el soporte en el IDF) ya que depende de aquél.
+* Para el soporte de Arduino,  ̶t̶e̶n̶d̶r̶á̶ ̶q̶u̶e̶ ̶c̶o̶n̶c̶l̶u̶í̶r̶s̶e̶ ̶e̶l̶ ̶p̶a̶s̶o̶ ̶a̶n̶t̶e̶r̶i̶o̶r̶ ̶(̶e̶l̶ ̶s̶o̶p̶o̶r̶t̶e̶ ̶e̶n̶ ̶e̶l̶ ̶I̶D̶F̶)̶ ̶y̶a̶ ̶q̶u̶e̶ ̶d̶e̶p̶e̶n̶d̶e̶ ̶d̶e̶ ̶a̶q̶u̶é̶l̶.̶
  En el repositorio del proyecto de Arduino ESP32 hay abierto un caso donde se ve el avance:  
 [Caso en Github Arduino ESP32 sobre el avance del soporte al S3 para el ESP32S3 ](https://github.com/espressif/arduino-esp32/issues/5594)  
 
-Actualización 4/04/2022: La versión de Arduino que soportará ESP32S3 es la 2.03 y en este momento ya se ha liberado el RC1 de esta versión.
+Actualización 4/04/2022: La versión de la librería Arduino-ESP32 que soportará ESP32S3 es la 2.03 y en este momento ya se ha liberado el RC1 de esta versión.
 Puede instalarse con el método usaual con el archivo JSON:  
 https://github.com/espressif/arduino-esp32/releases/download/2.0.3-RC1/package_esp32_dev_index.json  
 La página del release:

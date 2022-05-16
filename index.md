@@ -8,7 +8,7 @@ A continuación te ofrecemos la información más básica hasta el momento. En l
 Para comenzar a utilizar tu ESP32 y encontrar toda la información técnica, te recomendamos las siguientes ligas:
 
 * Pinout   
-![esp32s3 pinout](https://raw.githubusercontent.com/cosismo/esp32-s3/gh-pages/esp32s3%20pinout.jpeg)
+![esp32s3 pinout](https://raw.githubusercontent.com/cosismo/esp32-s3/gh-pages/Nodemcu-esp-s3-12k-kit-pin-definition.png)
 
 * Facebook.
 [Grupo de Facebook en español sobre Internet de las Cosas](https://www.facebook.com/groups/724628401049648/)

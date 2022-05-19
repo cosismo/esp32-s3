@@ -34,15 +34,20 @@ Si la sigues al pie de la letra, en menos de 30 minutos podrás correr el ejempl
 * El foro oficial del fabricante (Espressif) incluye
 [El post del avance en el soporte del IDF para el ESP32S3 ](https://www.esp32.com/viewtopic.php?t=21906)
 
-* ESP32S3 Schematic (Dev Kit)
+* ESP32S3 Diagrama Esquemático (Dev Kit)
 [Nodemcu-esp-s3-12k-kit Schematic](https://github.com/cosismo/esp32-s3/raw/gh-pages/Nodemcu-esp-s3-12k-kit_schematic.pdf)
+
+* ESP32S3 Drivers USB CH340 (Dev Kit) 
+El chip USB a ttl de esta placa es muy común y muy probablemente tu máquina Windows, Mac o Linux lo detectará automáticamente. Si tienes problemas te recomendamos que revises esta página:  
+[Drivers CH340]([https://github.com/cosismo/esp32-s3/raw/gh-pages/Nodemcu-esp-s3-12k-kit_schematic.pdf](https://cosismo.github.io/usbttl-ch340/))
+
 
 * ESP32S3 Datasheet (chip)
 [ESP32S3 Datasheet (Prerelease version 0.5) ](https://github.com/cosismo/esp32-s3/raw/gh-pages/esp32-s3_datasheet_en.pdf)
 
 ### Problemas conocidos:  
 
-* Arduino IDE no reconoce 8MB de flash de esta placa. Si se cambia la partición a 8MB entra en loop de reiniciarse. Esto no es un problema ni con la placa ni propiamente con la librería de Arduino, sino con la utilería para subir el archivo esptool. Fue detectada y resuelta por los desarrolladores pero aún no está actualizada en la librería. Puedes encontrar el workaround con el patch en el Issue en github:
+* Arduino IDE no reconoce 8MB de flash de esta placa. Si se cambia la partición a 8MB entra en loop de reiniciarse. Esto no es un problema ni con la placa ni propiamente con la librería de Arduino, sino con la utilería para subir el archivo esptool. Fue detectada y resuelta por los desarrolladores pero aún no está actualizada en la libreríade Arduino noi en el ESP-IDF. Puedes encontrar el workaround con el patch en el Issue en github:
 https://github.com/espressif/arduino-esp32/issues/6453  
 
 

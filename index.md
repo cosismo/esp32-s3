@@ -1,6 +1,6 @@
 ### ESP32S3 Dev kit
 
-***Última Actualización: 19/mayo/2022
+### Última Actualización: 19/mayo/2022
 
 Bienvenido al AIoT: Internet de las Cosas + Inteligencia Artificial
 

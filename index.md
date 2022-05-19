@@ -19,7 +19,7 @@ Para comenzar a utilizar tu ESP32 y encontrar toda la información técnica, te 
 
 * Actualización 4/04/2022:  La última versión de la librería (2.0.3) Arduino-ESP32 ya tiene soporte para ESP32-S3 
 Puede instalarse con el método usual con el archivo JSON:  
-https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json  
+[https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json](https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json)
 La página del release:
 [https://github.com/espressif/arduino-esp32/releases/tag/2.0.3](https://github.com/espressif/arduino-esp32/releases/tag/2.0.3)
 Por ser muy nueva, seguramente encontrarás varios bugs. El más notable para esta placa es que no puede reconocer los 8MB de Flash, sino sólo 4MB. Esto es un error conocido y está resuelto, sólo que hay que esperar a la liberación de la nueva versión.  Si eres usuario avanzado, al final de este documento te apuntamos al reporte en github y cómo solucionarlo. 
@@ -39,7 +39,7 @@ Si la sigues al pie de la letra, en menos de 30 minutos podrás correr el ejempl
 
 * ESP32S3 Drivers USB CH340 (Dev Kit) 
 El chip USB a ttl de esta placa es muy común y muy probablemente tu máquina Windows, Mac o Linux lo detectará automáticamente. Si tienes problemas te recomendamos que revises esta página:  
-[Drivers CH340]([https://github.com/cosismo/esp32-s3/raw/gh-pages/Nodemcu-esp-s3-12k-kit_schematic.pdf](https://cosismo.github.io/usbttl-ch340/))
+[Drivers CH340](https://cosismo.github.io/usbttl-ch340/)
 
 
 * ESP32S3 Datasheet (chip)
@@ -52,7 +52,8 @@ https://github.com/espressif/arduino-esp32/issues/6453
 
 
 
-¡Suerte!
+¡Suerte!  
+
    Equipo Cosismo
 
 

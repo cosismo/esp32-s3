@@ -24,7 +24,7 @@ La página del release:
 [https://github.com/espressif/arduino-esp32/releases/tag/2.0.3](https://github.com/espressif/arduino-esp32/releases/tag/2.0.3)
 Por ser muy nueva, seguramente encontrarás varios bugs. El más notable para esta placa es que no puede reconocer los 8MB de Flash, sino sólo 4MB. Esto es un error conocido y está resuelto, sólo que hay que esperar a la liberación de la nueva versión.  Si eres usuario avanzado, al final de este documento te apuntamos al reporte en github y cómo solucionarlo. 
 
-* La opción alternativa al Arduino IDE es usar el SDK proporcionado por el fabricante del chip, Espressif. Es el ESP-IDF, que se actualiza mucho más rápido que el Arduino IDE (que está basado en ella)  y también más avanzada. Puede requerir un mayor esfuerzo, por lo que sólo se recomienda para usuarios avanzados y profesionales.  La guía más básica para iniciar a programar el ESP32S3 con el IDF es la que sigue:  
+* La opción alternativa al Arduino IDE es usar el SDK proporcionado por el fabricante del chip, Espressif. Es el ESP-IDF, que se actualiza mucho más rápido que el Arduino IDE (que está basado en éste)  y también es más avanzado ya que tiene acceso a toda la API del chip. Puede requerir un mayor esfuerzo, por lo que sólo se recomienda para usuarios avanzados y profesionales.  La guía más básica para iniciar a programar el ESP32S3 con el IDF es la que sigue:  
 [Get Started ESP32S3 ES-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/index.html)
 Si la sigues al pie de la letra, en menos de 30 minutos podrás correr el ejemplo "hello world" o el "blink".
 

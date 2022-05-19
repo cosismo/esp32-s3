@@ -19,7 +19,7 @@ Para comenzar a utilizar tu ESP32 y encontrar toda la información técnica, te 
 
 * Actualización 4/04/2022:  La última versión de la librería (2.0.3) Arduino-ESP32 ya tiene soporte para ESP32-S3 
 Puede instalarse con el método usual con el archivo JSON:  
-[https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json](https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json)
+[https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json](https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json)  
 La página del release:
 [https://github.com/espressif/arduino-esp32/releases/tag/2.0.3](https://github.com/espressif/arduino-esp32/releases/tag/2.0.3)
 Por ser muy nueva, seguramente encontrarás varios bugs. El más notable para esta placa es que no puede reconocer los 8MB de Flash, sino sólo 4MB. Esto es un error conocido y está resuelto, sólo que hay que esperar a la liberación de la nueva versión.  Si eres usuario avanzado, al final de este documento te apuntamos al reporte en github y cómo solucionarlo. 

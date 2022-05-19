@@ -22,7 +22,8 @@ Puede instalarse con el método usual con el archivo JSON:
 [https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json](https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json)  
 La página del release:
 [https://github.com/espressif/arduino-esp32/releases/tag/2.0.3](https://github.com/espressif/arduino-esp32/releases/tag/2.0.3)
-Por ser muy nueva, seguramente encontrarás varios bugs. El más notable para esta placa es que no puede reconocer los 8MB de Flash, sino sólo 4MB. Esto es un error conocido y está resuelto, sólo que hay que esperar a la liberación de la nueva versión.  Si eres usuario avanzado, al final de este documento te apuntamos al reporte en github y cómo solucionarlo. 
+las primeras pruebas as hemos corrido usando la placa ESP32S3 Dev Module en el menú de Arduino IDE.  Puedes empexar con el ejemplo chip_id, que es de los más sencillos.
+Por ser muy nueva la librería de Arduino, seguramente encontrarás varios bugs. El más notable para esta placa es que no puede reconocer los 8MB de Flash, sino sólo 4MB. Esto es un error conocido y está resuelto, sólo que hay que esperar a la liberación de la nueva versión.  Si eres usuario avanzado, al final de este documento te apuntamos al reporte en github y cómo solucionarlo. 
 
 * La opción alternativa al Arduino IDE es usar el SDK proporcionado por el fabricante del chip, Espressif. Es el ESP-IDF, que se actualiza mucho más rápido que el Arduino IDE (que está basado en éste)  y también es más avanzado ya que tiene acceso a toda la API del chip. Puede requerir un mayor esfuerzo, por lo que sólo se recomienda para usuarios avanzados y profesionales.  La guía más básica para iniciar a programar el ESP32S3 con el IDF es la que sigue:  
 [Get Started ESP32S3 ES-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/index.html)

@@ -1,8 +1,10 @@
 ### ESP32S3 Dev kit
 
+***Última Actualización: 19/mayo/2022
+
 Bienvenido al AIoT: Internet de las Cosas + Inteligencia Artificial
 
-Si llegaste hasta aquí, sabrás que estás en la avanzada tecnológica de estos chips, por lo que la información actual es limitada, breve y cambiará todos los días.
+Si llegaste hasta aquí, sabrás que estás en la avanzada tecnológica de estos chips, por lo que la información actual es limitada, breve y cambiará con frecuencia. Te recomendamos revisarla constantemente.
 A continuación te ofrecemos la información más básica hasta el momento. En la medida de lo posible la iremos actualizando.  También puedes ir a las fuentes directas que te ofrecemos a continuación.
 
 Para comenzar a utilizar tu ESP32 y encontrar toda la información técnica, te recomendamos las siguientes ligas:

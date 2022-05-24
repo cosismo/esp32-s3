@@ -1,6 +1,6 @@
 ### ESP32S3 Dev kit
 
-### Última Actualización: 19/mayo/2022
+### Última Actualización: 24/mayo/2022
 
 Bienvenido al AIoT: Internet de las Cosas + Inteligencia Artificial
 
@@ -24,6 +24,11 @@ La página del release:
 [https://github.com/espressif/arduino-esp32/releases/tag/2.0.3](https://github.com/espressif/arduino-esp32/releases/tag/2.0.3)
 las primeras pruebas as hemos corrido usando la placa ESP32S3 Dev Module en el menú de Arduino IDE.  Puedes empexar con el ejemplo chip_id, que es de los más sencillos.
 Por ser muy nueva la librería de Arduino, seguramente encontrarás varios bugs. El más notable para esta placa es que no puede reconocer los 8MB de Flash, sino sólo 4MB. Esto es un error conocido y está resuelto, sólo que hay que esperar a la liberación de la nueva versión.  Si eres usuario avanzado, al final de este documento te apuntamos al reporte en github y cómo solucionarlo. 
+
+* Ejemplo Básico de sketch blink para Arduino IDE ESP32-S3:  
+[Video Blink LED RGB en Arduino IDE](https://www.youtube.com/watch?v=5k669MCECUY&ab_channel=CosismoIoT)  
+[Sketch Blink LED RGB en Arduino IDE](https://gist.github.com/cosismo/4ea3b2bc2d91fffbf6c81c33fb2231f0)  
+
 
 * La opción alternativa al Arduino IDE es usar el SDK proporcionado por el fabricante del chip, Espressif. Es el ESP-IDF, que se actualiza mucho más rápido que el Arduino IDE (que está basado en éste)  y también es más avanzado ya que tiene acceso a toda la API del chip. Puede requerir un mayor esfuerzo, por lo que sólo se recomienda para usuarios avanzados y profesionales.  La guía más básica para iniciar a programar el ESP32S3 con el IDF es la que sigue:  
 [Get Started ESP32S3 ES-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/index.html)

@@ -1,7 +1,6 @@
 ### ESP32S3 Dev kit
 
-### Última Actualización: 24/mayo/2022
-
+### Última Actualización: 7/Julio/2022
 Bienvenido al AIoT: Internet de las Cosas + Inteligencia Artificial
 
 Si llegaste hasta aquí, sabrás que estás en la avanzada tecnológica de estos chips, por lo que la información actual es limitada, breve y cambiará con frecuencia. Te recomendamos revisarla constantemente.
@@ -17,11 +16,11 @@ Para comenzar a utilizar tu ESP32 y encontrar toda la información técnica, te 
 * Facebook.
 [Grupo de Facebook en español sobre Internet de las Cosas](https://www.facebook.com/groups/724628401049648/)
 
-* Actualización 4/04/2022:  La última versión de la librería (2.0.3) Arduino-ESP32 ya tiene soporte para ESP32-S3 
+* Actualización 7/07/2022:  La última versión de la librería (2.0.4) Arduino-ESP32 es la segunda versión con soporte para ESP32-S3 
 Puede instalarse con el método usual con el archivo JSON:  
-[https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json](https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json)  
+[https://github.com/espressif/arduino-esp32/releases/download/2.0.4/package_esp32_dev_index.json](https://github.com/espressif/arduino-esp32/releases/download/2.0.4/package_esp32_dev_index.json)  
 La página del release:
-[https://github.com/espressif/arduino-esp32/releases/tag/2.0.3](https://github.com/espressif/arduino-esp32/releases/tag/2.0.3)
+[https://github.com/espressif/arduino-esp32/releases/tag/2.0.4](https://github.com/espressif/arduino-esp32/releases/tag/2.0.4)
 las primeras pruebas as hemos corrido usando la placa ESP32S3 Dev Module en el menú de Arduino IDE.  Puedes empexar con el ejemplo chip_id, que es de los más sencillos.
 Por ser muy nueva la librería de Arduino, seguramente encontrarás varios bugs. El más notable para esta placa es que no puede reconocer los 8MB de Flash, sino sólo 4MB. Esto es un error conocido y está resuelto, sólo que hay que esperar a la liberación de la nueva versión.  Si eres usuario avanzado, al final de este documento te apuntamos al reporte en github y cómo solucionarlo. 
 

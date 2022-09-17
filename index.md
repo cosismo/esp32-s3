@@ -1,32 +1,32 @@
 ### ESP32S3 Dev kit
 
-### Última Actualización: 7/Julio/2022
+### Última Actualización: 17/septiembre/2022
 Bienvenido al AIoT: Internet de las Cosas + Inteligencia Artificial
 
 Si llegaste hasta aquí, sabrás que estás en la avanzada tecnológica de estos chips, por lo que la información actual es limitada, breve y cambiará con frecuencia. Te recomendamos revisarla constantemente.
 A continuación te ofrecemos la información más básica hasta el momento. En la medida de lo posible la iremos actualizando.  También puedes ir a las fuentes directas que te ofrecemos a continuación.
 
-Para comenzar a utilizar tu ESP32 y encontrar toda la información técnica, te recomendamos las siguientes ligas:
+Para comenzar a utilizar tu ESP32S3 y encontrar toda la información técnica, te recomendamos las siguientes ligas:
 
 * Pinout   
-![esp32s3 pinout](https://raw.githubusercontent.com/cosismo/esp32-s3/gh-pages/Nodemcu-esp-s3-12k-kit-pin-definition.png)
-![esp32s3 pinout](https://raw.githubusercontent.com/cosismo/esp32-s3/gh-pages/Nodemcu-esp-s3-12k-kit-pin-definition-01.png)
+![esp32s3 pinout]()
+![esp32s3 pinout]()
 
 
 * Facebook.
 [Grupo de Facebook en español sobre Internet de las Cosas](https://www.facebook.com/groups/724628401049648/)
 
-* Actualización 7/07/2022:  La última versión de la librería (2.0.4) Arduino-ESP32 es la segunda versión con soporte para ESP32-S3 
+* Actualización 17/09/2022:  En nuestras pruebas y por reportes hemos notado que la versión que funciona consistentemente con el ESP32S3 es la 2.0.3 Es la que te recomendamos.   NOTA IMPORTANTE:  LA VERSIÓN 2.0.4 HA REPORTADO PROBLEMAS Y NO FUNCIONA CON ESTA PLACA. AÚN SI LA REGRESAS A LA VERSIÓN 2.0.3 PUEDE SEGUIR PRESENTANDO PRESENTANDO PROBLEMAS Y QUIZÁ SEA NECESARIO QUE LA BORRES MANUALMENTE Y VUELVAS A INSTALARLA.  EL DÍA DE AYER (16/09/2022) SE LIBERÓ LA VERSIÓN 2.0.5 PERO NO NOS HA SIDO POSIBLE HACER PRUEBAS, QUIZÁ ESTO YA SE HAYA RESUELTO.
 Puede instalarse con el método usual con el archivo JSON:  
-[https://github.com/espressif/arduino-esp32/releases/download/2.0.4/package_esp32_dev_index.json](https://github.com/espressif/arduino-esp32/releases/download/2.0.4/package_esp32_dev_index.json)  
+[https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json](https://github.com/espressif/arduino-esp32/releases/download/2.0.3/package_esp32_dev_index.json)  
 La página del release:
-[https://github.com/espressif/arduino-esp32/releases/tag/2.0.4](https://github.com/espressif/arduino-esp32/releases/tag/2.0.4)
+[https://github.com/espressif/arduino-esp32/releases/tag/2.0.3](https://github.com/espressif/arduino-esp32/releases/tag/2.0.3)
 las primeras pruebas as hemos corrido usando la placa ESP32S3 Dev Module en el menú de Arduino IDE.  Puedes empexar con el ejemplo chip_id, que es de los más sencillos.
-Por ser muy nueva la librería de Arduino, seguramente encontrarás varios bugs. El más notable para esta placa es que no puede reconocer los 8MB de Flash, sino sólo 4MB. Esto es un error conocido y está resuelto, sólo que hay que esperar a la liberación de la nueva versión.  Si eres usuario avanzado, al final de este documento te apuntamos al reporte en github y cómo solucionarlo. 
+Por ser muy nueva la librería de Arduino, seguramente encontrarás varios bugs. El más notable para esta placa es que no puede reconocer los 16MB de Flash, sino sólo 4MB. Esto es un error conocido y está resuelto, sólo que hay que esperar a la liberación de la nueva versión.  Si eres usuario avanzado, al final de este documento te apuntamos al reporte en github y cómo solucionarlo. 
 
 * Ejemplo Básico de sketch blink para Arduino IDE ESP32-S3:  
 [Video Blink LED RGB en Arduino IDE](https://www.youtube.com/watch?v=5k669MCECUY&ab_channel=CosismoIoT)  
-[Sketch Blink LED RGB en Arduino IDE](https://gist.github.com/cosismo/4ea3b2bc2d91fffbf6c81c33fb2231f0)  
+[Sketch Blink LED RGB en Arduino IDE](https://gist.github.com/cosismo/5c7ef47be6f8b82ce6f2192ec6813e6a)  
 
 
 * La opción alternativa al Arduino IDE es usar el SDK proporcionado por el fabricante del chip, Espressif. Es el ESP-IDF, que se actualiza mucho más rápido que el Arduino IDE (que está basado en éste)  y también es más avanzado ya que tiene acceso a toda la API del chip. Puede requerir un mayor esfuerzo, por lo que sólo se recomienda para usuarios avanzados y profesionales.  La guía más básica para iniciar a programar el ESP32S3 con el IDF es la que sigue:  

@@ -9,7 +9,7 @@ A continuación te ofrecemos la información más básica hasta el momento. En l
 Para comenzar a utilizar tu ESP32S3 y encontrar toda la información técnica, te recomendamos las siguientes ligas:
 
 * Pinout   
-![esp32s3 pinout]()
+![esp32s3 pinout](https://raw.githubusercontent.com/cosismo/esp32-s3/gh-pages/Purple-S3-pinout.png)
 
 
 * Facebook.

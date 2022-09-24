@@ -10,7 +10,6 @@ Para comenzar a utilizar tu ESP32S3 y encontrar toda la información técnica, t
 
 * Pinout   
 ![esp32s3 pinout]()
-![esp32s3 pinout]()
 
 
 * Facebook.
@@ -38,13 +37,6 @@ Si la sigues al pie de la letra, en menos de 30 minutos podrás correr el ejempl
 
 * El foro oficial del fabricante (Espressif) incluye
 [El post del avance en el soporte del IDF para el ESP32S3 ](https://www.esp32.com/viewtopic.php?t=21906)
-
-* ESP32S3 Diagrama Esquemático (Dev Kit)
-[Nodemcu-esp-s3-12k-kit Schematic](https://github.com/cosismo/esp32-s3/raw/gh-pages/Nodemcu-esp-s3-12k-kit_schematic.pdf)
-
-* ESP32S3 Drivers USB CH340 (Dev Kit) 
-El chip USB a ttl de esta placa es muy común y muy probablemente tu máquina Windows, Mac o Linux lo detectará automáticamente. Si tienes problemas te recomendamos que revises esta página:  
-[Drivers CH340](https://cosismo.github.io/usbttl-ch340/)
 
 
 * ESP32S3 Datasheet (chip)

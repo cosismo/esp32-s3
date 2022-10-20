@@ -28,12 +28,12 @@ Por ser muy nueva la librería de Arduino, seguramente encontrarás varios bugs.
 [Video Blink LED RGB en Arduino IDE](https://www.youtube.com/watch?v=5k669MCECUY&ab_channel=CosismoIoT)  
 [Sketch Blink LED RGB en Arduino IDE](https://gist.github.com/cosismo/5c7ef47be6f8b82ce6f2192ec6813e6a)  
 Las configuraciones relevantes de Arduino IDE sugeridas:
-Board: ESP32S3 Dev Board
-Flash Mode: DIO 80MHz
-Flash Size: 16MB (128Mb)
-PSRAM: QSPI PSRAM
-Partition Scheme: 16MB Flash (3MB APP /9.9MB FATFS)
-Conectar al puerto marcado como COM (NO al marcado como USB)
+Board: ESP32S3 Dev Board  
+Flash Mode: DIO 80MHz  
+Flash Size: 16MB (128Mb)  
+PSRAM: QSPI PSRAM  
+Partition Scheme: 16MB Flash (3MB APP /9.9MB FATFS)  
+Conectar al puerto marcado como COM (NO al marcado como USB)  
 
 * La opción alternativa al Arduino IDE es usar el SDK proporcionado por el fabricante del chip, Espressif. Es el ESP-IDF, que se actualiza mucho más rápido que el Arduino IDE (que está basado en éste)  y también es más avanzado ya que tiene acceso a toda la API del chip. Puede requerir un mayor esfuerzo, por lo que sólo se recomienda para usuarios avanzados y profesionales.  La guía más básica para iniciar a programar el ESP32S3 con el IDF es la que sigue:  
 [Get Started ESP32S3 ES-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/index.html)

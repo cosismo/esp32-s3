@@ -51,8 +51,7 @@ Si la sigues al pie de la letra, en menos de 30 minutos podrás correr el ejempl
 
 ### Problemas conocidos:  
 
-* Arduino IDE no reconoce 8MB de flash de esta placa. Si se cambia la partición a 8MB entra en loop de reiniciarse. Esto no es un problema ni con la placa ni propiamente con la librería de Arduino, sino con la utilería para subir el archivo esptool. Fue detectada y resuelta por los desarrolladores pero aún no está actualizada en la libreríade Arduino noi en el ESP-IDF. Puedes encontrar el workaround con el patch en el Issue en github:
-https://github.com/espressif/arduino-esp32/issues/6453  
+
 
 
 
